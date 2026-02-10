@@ -22,7 +22,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #333;
     line-height: 1.3;
-    padding: 20px;
+    padding: 2rem;
     width: 100vw;
     height: 100vh;
     font-size: 1.6rem;
@@ -33,9 +33,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 190px;  
-    height: 60px;
-    margin-bottom: 20px; 
+    width: 19rem;  
+    height: 6rem;
+    margin-bottom: 2rem; 
     text-align: center; 
     
 }
@@ -44,8 +44,8 @@ body{
     align-items: center;
     margin-top: 5px;
     margin-bottom: 9px;
-    width: 150px;
-    height: 100px;
+    width: 15rem;
+    height: 10rem;
 }
 /* LOGO END */
 
@@ -54,18 +54,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:650px;
-    width: 850px; 
+    height:65rem;
+    width: 85rem; 
     background-color: rgb(212, 205, 205);
     border: none;
+}
+@media (max-width: 690px) {
+    .main-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 1.5rem;
+        gap: 1.5rem;
+        align-items: stretch;
+    }
 }
 
 .content-container {
     background-color: rgb(200, 20, 20);
-    padding: 20px;
+    padding: 2rem;
     border-radius: none;
     color: white;
-    width: 300px;
+    width: 30rem;
     margin-left: 5px;
     height: 98%; 
     border: none;
@@ -74,21 +84,29 @@ body{
     justify-content: center; 
     align-items: center;  
 }
+@media (max-width: 690px) {
+    .content-container {
+        width: 100%;
+        height: auto;
+        padding: 1.5rem;
+        margin: 0;
+    }
+}
 
 .bootcamp {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 30px; 
+    font-size: 3rem; 
     line-height: 1.0; 
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .bootcamp p {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
     font-style: italic;
 }
@@ -96,43 +114,51 @@ body{
 /* Form Container */
 .form-container {
     background-color: white;
-    padding-left: 30px;
-    padding-right: 20px;
+    padding-left: 3rem;
+    padding-right: 2rem;
     border-radius: none;
-    width: 550px;
+    width: 55rem;
     height: 98%;
-    margin-right: 10px;
+    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
 }
+@media (max-width: 690px) {
+    .form-container {
+        width: 100%;
+        height: auto;
+        padding: 1.5rem;
+        margin: 0;
+    }
+}
 
 .form-title h1 {
-   font-size: 28px;
-   margin-bottom: 10px; 
+   font-size: 2.8rem;
+   margin-bottom: 1rem; 
    text-align: center; 
    font-weight: 800;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 .form-title p {
-    font-size: 14px;
-    margin-bottom: 15px;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     display: flex;
     flex-direction: column; 
     font-weight: bold;  
 }
 
 .form-group input {
-    padding: 12px;
+    padding: 1.2rem;
     border: 2px solid #000; 
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 1.4rem;
     width: 100%;
 }
 
@@ -144,24 +170,24 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     text-align: left;
     width: 95%;
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .form-group2 {
    display: flex;
    align-items: center;
    gap: 5px;
-   font-size: 14px;
+   font-size: 1.4rem;
    font-weight: bold;
 }
 
 .forgot-password {
     margin-left: 20%;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: rgb(177, 24, 24);
     text-decoration: none;
 }
@@ -173,15 +199,15 @@ body{
 
 .Sign-in-btn {
     width: 100%;
-    padding: 10px;
+    padding: 1rem;
     background-color: rgb(177,24,24);
     color: white;
     font-weight: bold;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 1.6rem;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 2rem;
     margin-bottom: 8px;
 }
 
@@ -190,12 +216,12 @@ body{
 }
 
 .Sign-up {
-   font-size: 15px;
+   font-size: 1.5rem;
    text-align: center;
    font-weight: 500;
-   margin-top: 15px;
-   margin-bottom: 15px;
-   margin-left: 50px;
+   margin-top: 1.5rem;
+   margin-bottom: 1.5rem;
+   margin-left: 5rem;
 
 }
 
@@ -214,8 +240,8 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 25px 0px;
-    font-size: 14px;
+    margin: 2.5rem 0rem;
+    font-size: 1.4rem;
     color: #666;
     font-weight: 500;
 }
@@ -228,14 +254,14 @@ body{
 }
 
 .continue span {
-    padding: 0 12px;
+    padding: 0 1.2rem;
 }
 
 .Social-buttons {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin-top: 30px;
+    gap: 1.5rem;
+    margin-top: 3rem;
     align-items: center;
 }
 
@@ -243,7 +269,7 @@ body{
     border: 2px solid #000;
     border-radius: 4px;
     padding: 4px;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     cursor: pointer;
     white-space: nowrap;
     transition: 0.3s ease;
@@ -251,20 +277,20 @@ body{
 
  .google-btn:hover {
   transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.15);
 }
 
 .facebook-btn:hover {
   transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.15);
 }
 
 .twitter-btn:hover {
   transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.15);
 }
 
 .github-btn:hover {
   transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.15);
 }
